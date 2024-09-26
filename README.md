@@ -1,49 +1,42 @@
-# Project Title: Aircraft Risk Analysis And Recommendations
+# Project Title: Aircraft Safety Risk Analysis 
 
 ## Project Overview
-This project focuses on data cleaning, imputation, analysis, and visualization to generate insights for stakeholders regarding aircraft safety risks and recommendations on the best options to consider. The aim is to provide actionable recommendations for the new aviation division as the company expands into purchasing and operating airplanes.
+In this project, I focused on cleaning, analyzing, and visualizing aviation accident data to uncover insights regarding aircraft safety risks. I aimed to provide actionable recommendations for stakeholders as the company expands into purchasing and operating airplanes. This analysis will help identify the aircraft with the lowest operational risks.
 
 ## Business Problem
-The company is interested in diversifying its portfolio by entering the aviation industry. However, more needs to be known about the potential risks associated with aircraft operations. The objective of this project is to identify which aircraft present the lowest risk for the company’s new business endeavor and provide insights to aid decision-making.
+As the company looks to diversify its portfolio by entering the aviation industry, more needs to be known about the risks associated with operating different aircraft. My goal with this project was to analyze historical accident data to offer insights and identify which aircraft present the lowest risk for the company's aviation division.
 
 ## The Data
-The dataset used for this project is sourced from the National Transportation Safety Board (NTSB) and contains aviation accident data from 1962 to 2023. This dataset includes information about civil aviation accidents and selected incidents in the United States and international waters.
-## Data Source
-
-The dataset used in this project is sourced from Kaggle. You can find it (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses).
+I used a dataset from the National Transportation Safety Board (NTSB), including aviation accident data from 1962 to 2023. This dataset contains information on civil aviation accidents and incidents in the U.S. and international waters. This is the link: https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses
 
 ### Data Folder Structure
-- **data/**
-  - `aviation_accident_data.csv` (or other relevant files)
+data/ aviation_accident_data.csv
 
 ## Key Points
-- The analysis will address missing values, data aggregation, and visualization techniques to support data-driven decision-making.
-- The final deliverable will include three concrete business recommendations based on the findings from the data analysis.
-- Emphasis will be placed on effectively communicating the results and insights to stakeholders, particularly the head of the aviation division.
+- I addressed missing values, performed data aggregation, and used visualization techniques to support decision-making.
+- The final recommendations are based on actionable insights derived from my dataset analysis.
+- The project aims to effectively communicate findings to stakeholders, particularly the head of the aviation division.
 
 ## Methodology
 1. **Data Cleaning**
-   - Describe how missing values were handled.
-   - Any transformations applied to the dataset.
+   - I handled missing values by identifying and imputing the appropriate data when necessary. I also transformed columns to correct formats, ensuring accurate analysis.
 
 2. **Data Analysis**
-   - Provide an overview of the analysis, including any statistical methods or models used.
-   - Key metrics calculated (e.g., survivability rates, accident frequencies).
+   - I conducted exploratory data analysis to calculate key metrics such as accident frequencies and the distribution of injuries by weather condition, engine type, make of the aircraft, and flight purpose.
 
 3. **Data Visualization**
-   - Types of visualizations created (e.g., bar charts, line graphs).
-   - Tools used for visualization (e.g., Tableau, Matplotlib).
+   - I created visualizations using Matplotlib in Jupyter Notebook to present insights into accident trends, accident counts in relation to flight purpose and make, risks associated with different aircraft makes, and the correlation between weather conditions and accident severity.
+   - I also did visualizations in Tableau for  accident trends, accident counts in relation to flight purpose and make, and risks associated with different aircraft makes. This is the link: https://public.tableau.com/app/profile/knight.mbithe/viz/AiircraftRiskAnalysisandRecommnendationinteractiveDashboard/RiskAnalysisandRecommendationsInteractiveDashboard?publish=yes
 
 ## Recommendations
-1. **Recommendation 1**: Description of the first actionable insight based on the analysis.
-2. **Recommendation 2**: Description of the second actionable insight based on the analysis.
-3. **Recommendation 3**: Description of the third actionable insight based on the analysis.
+1. **Recommendation 1**: Based on accident frequency analysis, I recommend avoiding aircraft models with high accident rates (e.g., Cessna).
+2. **Recommendation 2**: I suggest prioritizing flight operations under VMC (Visual Meteorological Conditions), as accidents tend to be less severe than those in IMC (Instrument Meteorological Conditions).
+3. **Recommendation 3**: I advise considering engine types like Turbo Fan and Turbo Jet, which, despite their higher accident counts, show better safety outcomes regarding survivability and uninjured passengers. Therefore, the high accident counts will be reduced if safety protocols are carefully followed for such engine types.
 
 ## Conclusion
-- Summary of the project’s findings and their implications for the company's aviation strategy.
-- Importance of data-driven decision-making in entering the aviation industry.
+In summary, certain aircraft and engine types show better survivability rates despite the high number of accident frequencies and injury severities. Therefore, safety measures need to be implemented to ensure both safety and survivability. My findings will help guide the company in making data-driven decisions about purchasing safer aircraft and mitigating risks in its new aviation venture.
 
 ## Contact Information
-- **Author**: Knight Mbithe Wambua
+- **Author**: Knight Mbithe
 - **Email**: knightmbithe17@gmail.com
 
